@@ -1,4 +1,4 @@
-package chatting;
+
 
 import java.net.Socket;
 import java.net.ServerSocket;
