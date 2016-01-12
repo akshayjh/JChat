@@ -1,4 +1,4 @@
-package chatting;
+
 import java.net.Socket;
 
 public class Connection extends Thread {
