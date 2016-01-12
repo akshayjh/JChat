@@ -1,4 +1,4 @@
-package chatting;
+
 import java.util.Vector;
 
 public class ConnectionListener extends Thread {
