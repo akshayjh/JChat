@@ -1,3 +1,5 @@
+package chatting;
+
 import java.net.Socket;
 import java.net.ServerSocket;
 import java.util.Vector;
@@ -12,7 +14,7 @@ public class ChatServer {
         // thread that broadcasts messages to clients
         connectionListener.start();
 
-        System.err.println("ChatServer started");
+        System.err.println("Chat Server started");
 
         while (true) {
 

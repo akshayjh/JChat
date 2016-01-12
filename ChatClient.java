@@ -1,3 +1,4 @@
+package chatting;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -39,9 +40,6 @@ public class ChatClient extends JFrame implements ActionListener {
             new WindowAdapter() {
                 public void windowClosing(WindowEvent e) {
                     out.close();
-//                    in.close();
-//                    try                   { socket.close();        }
-//                    catch (Exception ioe) { ioe.printStackTrace(); }
                 }
             }
         );

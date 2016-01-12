@@ -1,3 +1,4 @@
+package chatting;
 import java.io.IOException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
@@ -47,18 +48,6 @@ public class Out {
 
     // This method is just here to test the class
     public static void main (String[] args) {
-        Out out;
-        String s;
-
-        // write to stdout
-        out = new Out();
-        out.println("Test 1");
-        out.close();
-
-        // write to a file
-        out= new Out("test.txt");
-        out.println("Test 2");
-        out.close();
     }
 
 }

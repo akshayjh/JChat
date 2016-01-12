@@ -1,3 +1,4 @@
+package chatting;
 import java.net.Socket;
 
 public class Connection extends Thread {
@@ -26,12 +27,6 @@ public class Connection extends Thread {
         System.err.println("closing socket");
     }
 
-
-   /***************************************************************************
-    *  The methods getMessage() and setMessage() are synchronized
-    *  so that the thread in Connection doesn't call setMessage()
-    *  while the ConnectionListener thread is calling getMessage().
-    ***************************************************************************/
     public synchronized String getMessage() {
         if (message == null) return null;
         String temp = message;
